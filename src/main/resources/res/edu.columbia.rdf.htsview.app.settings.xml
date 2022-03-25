@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<setting name="htsview.version.major" value="42" />
+	<setting name="htsview.version.minor" value="0" />
+	<setting name="htsview.version.revision" value="0" />
+	
+	<setting name="edb.modules.edbw.enabled" value="false"/>
+	<setting name="edbw.server" value="http://localhost:8080/edbw7"/>
+	<setting name="edbw.key" value=""/>
+	<setting name="edbw.user" value=""/>
+	<setting name="edbw.totp.epoch.offset.ms" value="0"/>
+	<setting name="edbw.totp.step-size.ms" value="3600000"/>
+	
+	<setting name="edb.reads.file-menu-default-index" value="0" />
+	<setting name="edb.reads.max-display-genes" value="50" />
+	<setting name="edb.reads.remote-url" value="http://localhost:8080/reads/api/v1/hg19/" />
+	<setting name="edb.reads.samples.normalize-counts" value="true"/>
+	<setting name="edb.reads.auto-max-y" value="true"/>
+	<setting name="edb.reads.common-y-scale" value="true"/>
+	<setting name="edb.reads.auto-load-previous-view" value="false"/>
+	<setting name="edb.reads.dna.remote-url" value="http://localhost:8080/dna3/api/v1/"/>
+	<setting name="edb.reads.conservation.remote-url" value="http://localhost:8080/conservation/api/v1/hg19/"/>
+	<setting name="edb.reads.mouse.conservation.remote-url" value="http://localhost:8080/alignment/api/v1/hg19/mm10/"/>
+	
+	<setting name="edb.reads.chip-seq.remote-url" value="http://localhost:8080/tracks7/api/v1/"/>
+	
+	<setting name="edb.reads.chip-seq.default-view" value="ChIP-seq Type"/>
+	
+	
+	<!-- 10 bp -->
+	
+	<setting name="edb.reads.resolutions" value="1;10;100;1000;10000;100000;1000000"/>
+	<setting name="edb.reads.default-resolution" value="1000"/>
+	
+	<setting name="gene.db" value="gencode"/>
+	<setting name="genome.name" value="hg19"/>
+	
+	<setting name="edb.reads.title-position" value="top"/>
+	
+	<setting name="edb.reads.scale.max-y" value="1"/>
+	<setting name="edb.reads.scale.auto-y" value="true"/>
+	<setting name="edb.reads.scale.same-y" value="true"/>
+	<setting name="edb.reads.scale.normalize-y" value="true"/>
+	
+	<setting name="edb.reads.peak-style" value="filled_smooth"/>
+	
+	<setting name="edb.reads.zoom.min" value="0.1"/>
+	<setting name="edb.reads.zoom.max" value="4"/>
+	<setting name="edb.reads.zoom.current" value="1"/>
+	
+	<setting name="htsview.genes.main-variant-color" value="#000000"/>
+	
+	<setting name="htsview.help.type" value="web" />
+	<setting name="htsview.help.url" value="https://github.com/lab-rdf/lab-rdf.github.io/wiki/HTSView" />
+	
+	<setting name="htsview.ucsc.tracks.base-url" value="http://genome.ucsc.edu/cgi-bin/hgTracks"/>
+	
+	
+	<setting name="htsview.sample-editor.help.url" value="https://github.com/lab-rdf/htsview-app/wiki/Sample_Editor" />
+	<setting name="htsview.samples.help.url" value="https://github.com/lab-rdf/htsview-app/wiki/Samples_Browser" />
+	<setting name="htsview.annotations.help.url" value="https://github.com/lab-rdf/htsview-app/wiki/Annotations" />
+	
+	<setting name="htsview.modules.read-dist.help.url" value="https://github.com/lab-rdf/htsview-app/wiki/Read_Distribution" />
+	<setting name="htsview.modules.heat-map.help.url" value="https://github.com/lab-rdf/htsview-app/wiki/Heat_Map" />
+	
+	<setting name="edb.save-db-cache" value="true"/>
+	<!-- The step size for generating one time authentication keys, default 5 minutes = 300000 milliseconds -->
+	
+	<setting name="edb.reads.default-location" value="chr1:10000000-10100000"/>
+	
+	<setting name="edb.reads.tracks.sample-plot.default-color" value="#ff0000"/>
+	
+	<setting name="edb.reads.tracks.reads-plot.max-blocks" value="40"/>
+	
+	<setting name="edb.reads.tracks.reads-plot.default-read-height" value="12"/>
+	<setting name="edb.reads.tracks.reads-plot.default-gap" value="4"/>
+	
+	<setting name="edb.reads.tracks.reads-plot.max-display-reads" value="100000"/>
+	<setting name="edb.reads.tracks.reads-plot.strands.positive.visible" value="true"/>
+	<setting name="edb.reads.tracks.reads-plot.strands.positive.line-color" value="#2ca05a"/>
+	<setting name="edb.reads.tracks.reads-plot.strands.positive.fill-color" value="#5fd38d"/>
+	<setting name="edb.reads.tracks.reads-plot.strands.negative.visible" value="true"/>
+	<setting name="edb.reads.tracks.reads-plot.strands.negative.line-color" value="#2c5aa0"/>
+	<setting name="edb.reads.tracks.reads-plot.strands.negative.fill-color" value="#5f8dd3"/>
+	
+	<setting name="edb.reads.genes.color" value="#000000"/>
+	<setting name="edb.reads.genes.main-variant-color" value="#000000"/>
+	
+	<setting name="edb.reads.tracks.sample-plot.brt.show-sample" value="true"/>
+	<setting name="edb.reads.tracks.sample-plot.brt.show-reads" value="true"/>
+	
+	<setting name="htsview.plot.width" value="1000"/>
+	<setting name="htsview.plot.height" value="100"/>
+	<setting name="htsview.plot.left-margin" value="400"/>
+	
+	<!-- Whether to stream DNA from remote server or locally -->
+	<setting name="htsview.dna.web-mode" value="false"/>
+	
+	<setting name="htsview.annotation.ucsc.hg19.refseq.genes.gff" value="res/genomes/human/UCSC/hg19/genes/ucsc_refseq_hg19_20160606.gff3.gz" />
+	<setting name="htsview.annotation.ucsc.mm10.refseq.genes.gff" value="res/genomes/mouse/UCSC/mm10/genes/ucsc_refseq_mm10_20160225.gff3.gz" />
+
+	<setting name="htsview.annotation.ucsc.hg19.cytobands" value="res/genomes/human/UCSC/hg19/ucsc_cytobands_hg19.txt.gz" />
+	<setting name="htsview.annotation.ucsc.mm10.cytobands" value="res/genomes/mouse/UCSC/mm10/ucsc_cytobands_mm10.txt.gz" />
+	
+	<setting name="htsview.annotation.ucsc.hg19.chr-sizes" value="res/genomes/human/UCSC/hg19/ucsc_chromosome_sizes_hg19.txt.gz" />
+	<setting name="htsview.annotation.ucsc.mm10.chr-sizes" value="res/genomes/mouse/UCSC/mm10/ucsc_chromosome_sizes_mm10.txt.gz" />
+
+  <setting name="htsview.genes.web-mode" value="false"/>
+  <setting name="htsview.genes.url" value="http://localhost:8080/edbw8/api/v1"/>
+</settings>

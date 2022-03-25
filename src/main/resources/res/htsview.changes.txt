@@ -1,0 +1,154 @@
+VERSION 31 - 10/12/15
+  
+  * Improved graphics and performance.
+  * Support for spline smoothed curved graphs.
+  * Overlay plots on top of each other.
+  * Auto scale data to match nearest bin so that screen does not appear
+  * empty
+  
+VERSION 25 - 05/03/15
+  
+  * Integration with EDB.
+  * Improved graphics for genes.
+  
+  
+VERSION 24 - 04/22/15
+  
+  * Support for BED blocks.
+  
+  
+VERSION 23 - 04/16/15
+  
+  * Better gene visualization.
+  * Color genes.
+  
+  
+VERSION 22 - 04/14/15
+  
+  * Support for reads aligned to mm10.
+  
+  
+VERSION 21 - 04/12/15
+  
+  * Support for colors in bed files and strand direction.
+  
+  
+VERSION 20 - 03/27/15
+  
+  * UI and bug fixes.
+  
+VERSION 19 - 03/27/15
+  
+  * UI and bug fixes.
+  
+  
+VERSION 18 - 03/20/15
+  
+  * Locations side bar.
+  
+  
+VERSION 17 - 03/12/15
+  
+  * Support for multiple revisions of samples.
+  * Improved search.
+  
+  
+VERSION 16 - 03/05/15
+  
+  * Bug fixes.
+  * Select a region to zoom to.
+  
+
+VERSION 15 - 02/19/15
+
+  * Renderer reuses graph objects and updates them to reduce object
+  	creation on each refresh.
+  * Side scrolling buttons do not require repeated clicks.
+  * Fixed zoom bugs.
+  * Right alignment mode now supported by all track types.
+  * Gene annotations enlarged and now draw forward strand exons above the
+  	mid point line and reverse strand exons below.
+  * Region check now bounds region within chromosome.
+  * Resolution automatically adjusts. There is no longer a warning that
+  	there are too many points to be displayed.
+  
+  
+VERSION 14 - 02/17/15
+
+  * Switch bed files to using gapped search back end.
+  * Fixed zoom problem that would cause elements to disappear if they
+  	completely spanned the region of interest.
+  
+  
+VERSION 12 - 02/01/15
+
+  * Remembers settings.
+  
+  
+VERSION 11 - 01/30/15
+
+  * DNA color and masked tracks.
+  
+  
+VERSION 10 - 01/27/15
+
+  * UI redesign.
+  
+  
+VERSION 9 - 01/23/15
+
+  * Ability to scale plots independently of each other.
+  * UI improvements.
+  
+  
+VERSION 8 - 01/21/15
+
+  * Fixed cytobands rendering issue.
+  * Left/right drag scroll to alter genomic location.
+  
+  
+VERSION 7 - 01/20/15
+
+  * Addition of tracks UI model with custom editors for different track types.
+  * Support for cytobands.
+  * Support for UCSC genes.
+  * Support for Ensembl genes.
+  
+  
+VERSION 6 - 01/10/15
+
+  * Support for loading bedgraph files.
+  * Support for setting y axis.
+  * Support for reordering tracks.
+  * Support for loading custom BED/BedGraph files.
+  * Removal of format pane UI.
+  * Addition of tracks UI model with custom editors for different track types.
+  * Support for cytobands.
+  * Support for UCSC genes.
+  
+  
+VERSION 5 - 01/06/15
+
+  * Support for gene symbols when generating heat maps.
+  
+  
+VERSION 4 - 12/23/14
+
+  * Support for TSS heatmaps.
+  
+  
+VERSION 3 - 12/22/14
+
+  * Proper support for bedgraph files.
+  
+  
+VERSION 2 - 12/19/14
+
+  * Support for BED editing.
+  * Switched to zero based support in BED file read/write.
+  * Support for folders and sub-folders in sample view.
+  
+  
+VERSION 1 - 12/17/14
+
+  * Allow users to browse peak data.

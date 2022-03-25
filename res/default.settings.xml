@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+
+	<setting name="theme.color-highlight.highlight-10" value="#aa0000" />
+
+	<setting name="edb.reads.conservation.remote-url" value="http://156.145.14.157:8080/conservation/api/v1/hg19/"/>
+	<setting name="edb.reads.dna.remote-url" value="http://156.145.14.157:8080/dna2/api/v1/"/>
+	<!-- Remark out for local testing
+	<setting name="edb.reads.chip-seq.remote-url" value="http://156.145.14.157:8080/tracks6/api/"/>
+	 -->
+	<setting name="edb.reads.remote-url" value="http://156.145.14.157:8080/reads/api/v1/hg19/"/>
+	<setting name="edb.reads.mouse.conservation.remote-url" value="http://156.145.14.157:8080/alignment/api/v1/hg19/mm10/"/>
+	
+	<setting name="edb.modules.edbw.enabled" value="true"/>
+	<!-- <setting name="edb.modules.edbw.enabled" value="false"/> -->
+	<!-- <setting name="edbw.server" value="http://52.206.83.98/edbw"/> -->
+	<setting name="edbw.server" value="https://apps.rdf-lab.org/edbw"/>
+	
+	<setting name="edbw.key" value="yLBctUKZrtChaD8hVE7nKw8DVpESnqcsVckHCrvZvRhXSL6p"/>
+  <setting name="edbw.totp" value="96G71a5dmVHMVFBaToHvHuFMGvyviRsAvEPE5oo5uIvf7Oaz:0:3600000"/>
+	
+	<setting name="edb.reads.chip-seq.remote-url" value="http://156.145.14.157:8080/tracks7/api/v1/"/>
+	
+	<!-- Settings for MatCalc -->
+	<setting name="motifs.genome.remote-url" value="http://156.145.14.157:8080/genome/api/v1/hg19/" />
+	<setting name="motifs.dna.remote-url" value="http://156.145.14.157:8080/dna2/api/v1" />
+	<setting name="motifs.motifsdb.remote-url" value="http://156.145.14.157:8080/motifs/api/v1/" />
+	
+	<setting name="dna.remote-url" value="http://156.145.14.157:8080/dna/api/v2/hg19/"/>
+
+	<setting name="regions.conservation.remote-url" value="http://156.145.14.157:8080/conservation/api/v1/hg19/"/>
+	<setting name="regions.dna.remote-url" value="http://156.145.14.157:8080/dna2/api/v1/"/>
+	<setting name="regions.max-stitch-distance" value="500"/>
+	<setting name="regions.mouse.conservation.remote-url" value="http://156.145.14.157:8080/alignment/api/v1/hg19/mm10/"/>
+	
+	<!--<setting name="modern.ui.window.decoration.style" value="modern"/>  -->
+	
+	<setting name="htsview.genes.web-mode" value="true"/>
+	<setting name="htsview.genes.url" value="http://52.206.83.98/genes/api/v1"/>
+</settings>

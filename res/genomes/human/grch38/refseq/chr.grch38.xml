@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genome name="Human" build="grch38">
+	<chr id="1" name="chr1" size="248956422" />
+	<chr id="2" name="chr2" size="242193529" />
+	<chr id="3" name="chr3" size="198295559" />
+	<chr id="4" name="chr4" size="190214555" />
+	<chr id="5" name="chr5" size="181538259" />
+	<chr id="6" name="chr6" size="170805979" />
+	<chr id="7" name="chr7" size="159345973" />
+	<chr id="8" name="chr8" size="145138636" />
+	<chr id="9" name="chr9" size="138394717" />
+	<chr id="10" name="chr10" size="133797422" />
+	<chr id="11" name="chr11" size="135086622" />
+	<chr id="12" name="chr12" size="133275309" />
+	<chr id="13" name="chr13" size="114364328" />
+	<chr id="14" name="chr14" size="107043718" />
+	<chr id="15" name="chr15" size="101991189" />
+	<chr id="16" name="chr16" size="90338345" />
+	<chr id="17" name="chr17" size="83257441" />
+	<chr id="18" name="chr18" size="80373285" />
+	<chr id="19" name="chr19" size="58617616" />
+	<chr id="20" name="chr20" size="64444167" />
+	<chr id="21" name="chr21" size="46709983" />
+	<chr id="22" name="chr22" size="50818468" />
+	<chr id="23" name="chrX" size="156040895" />
+	<chr id="24" name="chrY" size="57227415" />
+	<chr id="25" name="chrM" size="16569" />
+</genome>

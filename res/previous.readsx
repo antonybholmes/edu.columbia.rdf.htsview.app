@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view location="chr6:37091208-37175720">
+	<track type="annotation" name="Ruler"/>
+	<track type="annotation" name="Cytobands hg19"/>
+	<track type="annotation" name="Scale"/>
+	<track type="sample" name="MO1043_ICN1HA_Input_RG022" id="1515" color="#000000ff" fill-color="#0000007f"/>
+	<track type="sample" name="MO1043_ICN1HA_Tc_RG009" id="1512" color="#f016e2ff" fill-color="#f016e27f"/>
+	<track type="sample" name="MO1043_ICN1HA_Tc_RG015" id="1513" color="#f016e2ff" fill-color="#f016e27f"/>
+	<track type="sample" name="MO1043_ICN1HA_H3K27Ac_RG013" id="1520" color="#00cc00ff" fill-color="#00cc007f"/>
+	<track type="sample" name="MO1043_ICN1HA_H3K4me3_RG011" id="1518" color="#ff0000ff" fill-color="#ff00007f"/>
+	<track type="sample" name="MO1043_ICN1HA_H3K4me1_RG018" id="1517" color="#1800eeff" fill-color="#1800ee7f"/>
+	<track type="genes" name="RefSeq genes" color="#217821ff" other-color="#999999ff" show-tss-arrows="true" show-exon-arrows="false"/>
+</view>
